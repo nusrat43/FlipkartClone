@@ -1,0 +1,480 @@
+
+img{
+    width: 200px;
+    height: 40px;
+}
+nav{
+    background-color: white;
+}
+.search{
+    display: flex;
+    border: 1px solid black;
+    width: 700px;
+    margin: 8px 0px 0px 40px;
+  border-radius: 5px;
+  background-color: rgb(230, 233, 243);
+  border: none;
+  
+}
+.under_search{
+    
+   padding: 6px;
+   height: 40px;
+}
+
+.inp_search{
+    width: 666px;
+    height: 39px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color:rgb(230, 233, 243);
+}
+.nav-item{
+    display: flex;
+}
+#login{
+    border:none ;
+    align-self: center;
+}
+.btn{
+    margin: 3px 0px 0px 30px;
+    align-self: center;
+}
+.login1{
+    margin: 5px 0px 0px 30px;
+    align-self: center;
+}
+.login1:hover{
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px lightgray solid;
+
+    
+}
+.dropdown-toggle{
+    border: none;
+    background-color: white;
+}
+.cart{
+    margin: 5px 0px 0px 30px;
+    align-self: center;
+}
+span{
+    margin: 5px;
+}
+.cart a{
+    text-decoration: none;
+    color: black;
+    
+}
+.more{
+    margin: 10px;
+    margin-left: 30px;
+    align-self: center;
+ 
+}
+.more .dropdown-menu{
+    display: none;
+}
+.more .dropdown-menu:hover{
+    display: contents;
+}
+.more:hover{
+   
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px
+}
+.main_item{
+   
+    width:1480px;
+   margin: 20px 10px 20px 20px;
+    padding: 20px;
+    padding-left: 60px;
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+    grid-gap: 30px;
+    background-color: white;  
+}
+div h4{ 
+    padding:10px ;
+}
+
+/*  -----------------add part ------------- */
+
+
+.slide img{
+    width: 1480px;
+    height: 225px;
+    margin: 5px 10px 20px 20px;
+}
+
+/*---------------- offer part--------------- */
+
+.offer img{
+    width: 1480px;
+    height: 125px;
+    margin: 5px 10px 20px 20px;
+}
+.item_name{
+    width: 1480px;
+    height: 350px;
+    background-color: white;
+    margin: 5px 20px 5px 20px;
+}
+.outer-mobile{
+    display: flex;
+   justify-content: space-between;
+   margin: 10px;
+   margin-top: 20px;
+   width: 1450px;
+}
+.mobile{
+    border: 1px solid rgb(208, 201, 201);
+    width: 190px;
+    height: 260px;
+    text-align: center;
+    border-radius: 5px;
+}
+.mobile img{
+    margin-top:5px ;
+    width: 150px;
+    height: 170px;
+}
+.mobile img:hover{
+    transition: 0.1s;
+    width: 155px;
+    height: 175px;
+   
+}
+.mobile p{
+    margin-top: 5px;
+}
+.top_deal{
+    width: 1480px;
+    height: 350px;
+    background-color: white;
+    margin: 5px 20px 5px 20px;
+}
+.outer-deal{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 20px;
+    width: 1450px;
+}
+.deal{
+    border: 1px solid rgb(208, 201, 201);
+    width: 190px;
+    height: 260px;
+    text-align: center;
+    border-radius: 5px;
+}
+.deal img{
+    width: 150px;
+    height: 160px;
+    margin-top: 5px;
+}
+.deal img:hover{
+    transition: 0.1s;
+    width: 155px;
+    height: 165px;
+}
+.deal p{
+    margin-top: 5px;
+}
+.cover-add{
+    display: flex;
+    width: 1480px;
+    height: 250px;
+    background-color: white;
+    margin: 20px;
+    justify-content: space-around;
+}
+.cover-add img {
+    
+    width: 480px;
+    height: 250px;
+}
+.End_of_Season{
+    width: 550px;
+    height: 680px;
+    background-color: white;
+    margin: 5px 20px 5px 20px;
+
+}
+.outer-end{
+    margin: 10px;
+    margin-top: 20px;
+    /* justify-content: space-around;
+     */
+}
+.end{
+    border: 1px solid rgb(208, 201, 201);
+    width: 250px;
+    height: 290px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+.end img{
+    width: 150px;
+    height: 200px;
+    margin-top: 5px;
+}
+.end img:hover{
+    transition: 0.1s;
+    width: 155px;
+    height: 205px;
+}
+.flex-end{
+    display: flex;   
+}
+.back_cover{
+    background-image: url(assets/back\ mobile.avif);
+    width: 60%;
+    height: 92vh;
+    background-size: cover;
+    background-position: top 10px center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(233, 230, 230);
+    
+}
+.back_cover button{
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    background-color: rgb(184, 182, 182);
+}
+.back_cover img{
+    margin-left: 150px;
+}
+.row{
+    
+    color: white;
+    font-size: 15px;
+}
+.footer{
+    background-color:rgb(36, 35, 35);
+}
+.col{
+   
+    font-size: 13px;
+   padding: 30px;
+}
+.footer_icon{
+    color: white;
+}
+.outer-footer-icon{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*------------ Mobile Part wale ke liye css---------------- */
+.navbar{
+    
+}
+.navbar button{
+    border-radius: 1px;
+    padding: 5px 30px 5px 30px;
+}
+.seller{
+    margin-top: 5px;
+    padding: 10px;
+}
+.menu{
+    display: flex;  
+    width:100%;
+    height: 80px;
+    background-color: white;
+}
+.item{
+    text-align: center;
+    padding: 40px;
+    width: 1480px;
+    height: 1550px;
+    background-color: white;
+    margin: 5px 20px 5px 20px;
+}
+.grid{
+   width:1400px;
+   height: 1400px;
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+}
+.Cards{
+   
+    width: 300px;
+    height: 300px;
+}
+.grid img{
+    margin-bottom: 20px;
+    width: 150px;
+    height: 200px;
+}
+.grid img:hover{
+    width: 155px;
+    height: 205px; 
+}
+
+/*--------------------- Top Deals-------------------- */
+
+.item-2{
+    text-align: center;
+    padding: 40px;
+    width: 1480px;
+    height: 1950px;
+    background-color: white;
+    margin: 5px 20px 5px 20px;
+}
+.grid-2{
+    width:1400px;
+    height: 1700px;
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+}
+.Cards1{ 
+    width: 300px;
+    height: 300px;
+}
+.grid-2 img{
+    margin-bottom: 20px;
+    width: 150px;
+    height: 200px;
+}
+.grid-2 img:hover{
+    width: 155px;
+    height: 205px; 
+}
+.line1{
+   padding-bottom: 40px;
+}
+
+
+/* -------------------Cart Part---------------- */
+.under_cart{
+    width: 800px;
+    height: 1200px;
+    border: 1px solid rgb(173, 170, 170);
+    margin: 80px;
+    margin-left:130px ;
+}
+.sub-menu{
+    width: 799px;
+    height: 70px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+
+   
+    
+}
+.address{
+    width: 799px;
+    height: 70px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+}
+.address button{
+   border: 1px solid gray;
+    padding:10px 30px 10px 30px ;
+    border-radius: 5px;
+    float: right;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    margin-left: 350px;
+   background-color: white;
+    font-weight: 600;
+}
+.address p{
+   margin-left: 20px;
+}
+.cart_item{
+    width: 799px;
+    height: 950px;
+    background-color: white;
+    margin-top: 10px;
+   padding: 40PX;
+}
+.text{
+    color: black;
+}
+.text1 img{
+    width: 200px;
+    height: 200px;
+}
+.bottom_navbar {
+    width: 799px;
+    height: 90px;
+    background-color: white;
+    box-shadow: -2px -2px 4px rgb(190, 188, 188);
+    position: sticky;
+    bottom: 0px;
+}
+.bottom_navbar button{
+    background-color: orangered;
+    padding:10px 60px 10px 60px ;
+    border: none;
+    float: right;
+    margin-top: 20px ;
+    margin-right: 20px;
+    color: white;
+    font-weight: 600;
+}
+.main_cart{
+    display: flex;
+}
+
+.price1{
+    border: 1px solid rgb(200, 193, 193);
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding: 40px;
+    position: sticky;
+    top: 100px;
+}
+.location{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid rgb(200, 193, 193);
+    margin-top: 40px;
+    padding: 30px;
+    position: sticky;
+    top: 400px;
+    /* bottom: 300px; */
+}
+.side_price{
+    display: flex;
+}
+.bottom_cart{
+    padding: 20px;
+}
+p span{
+    float: right;
+}
+
